@@ -1,1 +1,12 @@
 theme: jekyll-theme-hacker
+
+title: milchoH's Infosec blog
+url: "https://milchoh.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  milchoH
+# Build settings
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+permalink: /:categories/:title/
+paginate: 5
+paginate_path: "page:num"
