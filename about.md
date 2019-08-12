@@ -20,6 +20,7 @@ I am starting with Hack The Box challenges and CTFs in order to prepare for OSCP
 Hack The Box profile: [milcho](https://www.hackthebox.eu/home/users/profile/78478)
 
 Root-me profile: [Bers3rkCrAck](https://www.root-me.org/Bers3rkCrAck?lang=en)
+
 BugBountyNotes profile: [zaptos](https://www.bugbountynotes.com/user/zaptos)
 
 Github: [milchoH](https://github.com/milchoH)
