@@ -4,7 +4,6 @@ title: "What is Cross-Site Scripting"
 date: 2019-08-12
 image: whatIsXss.jpg
 category: tutorials
-tags: tutorial xss information
 
 ---
 
