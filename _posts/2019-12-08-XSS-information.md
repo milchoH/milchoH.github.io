@@ -23,6 +23,31 @@ Reflected (Non-Persistent or Type-II XSS) attacks are those, where the injected 
 ## DOM Based XSS
 DOM Based XSS(or Type-0) as defined by Amit Klein, who published the first article about this issue[1], DOM Based XSS is a form of XSS where the entire tainted data flow from source to sink takes place in the browser, i.e., the source of the data is in the DOM, the sink is also in the DOM, and the data flow never leaves the browser. For example, the source (where malicious data is read) could be the URL of the page (e.g., document.location.href), or it could be an element of the HTML, and the sink is a sensitive method call that causes the execution of the malicious data (e.g., document.write)."
 
+# Example payloads
+
+The most simple payload can be
+```
+<script>alert(1)</script>
+```
+When added as input in e.g. search field, if the payload is successful, should display alert box with "1" as text. Generally this can be uset as Prove of Concept, but you can try getting more information e.g. cookie information by using
+
+```
+<script>alert(document.cookie)</script>
+```
+
+Another example payload is to use image tag e.g.
+
+```
+<img src=x onerror="alert(document.cookie)"
+```
+
+If the `<script>` tags are sanitized, the following payload can be used
+```
+<IMG SRC="javascript:alert('XSS');">
+``` 
+
+More example payloads and filter evasions can be seen on the [OWASP site](https://www.owasp.org/index.php/XSS_Filter_Evasion_Cheat_Sheet)
+
 # Sources
 
 [Cross-Site scripting on OWASP](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS))
