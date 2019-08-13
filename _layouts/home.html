@@ -5,8 +5,8 @@ layout: default
 {% for post in paginator.posts %}
  {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
  <span class="post-meta">{{ post.date | date: date_format }}</span>
- <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
- <center> <img src="{{ site.baseurl }}/images/{{ post.image }}"> </center>
+ <h2><a href="{{ post.url }}">{{ post.title }}</h2>
+ <center> <img src="{{ site.baseurl }}/images/{{ post.image }}"> </center></a>
 {% endfor %}
 <span class="page-number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
 {% if site.paginate_path != 'page:num'%}
