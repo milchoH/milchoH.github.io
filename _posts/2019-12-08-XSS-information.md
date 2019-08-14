@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "What is Cross-Site Scripting"
+author: milchoH
 date: 2019-08-12
 image: whatIsXss.jpg
 category: tutorials

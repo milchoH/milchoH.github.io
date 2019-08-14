@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "What is SQL Injection"
+author: milchoH
 date: 2019-08-15
 image: whatIsSQLInjection.jpg
 category: tutorials
