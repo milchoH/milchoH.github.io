@@ -2,6 +2,7 @@ theme: jekyll-theme-hacker
 
 title: milchoH's Infosec blog
 url: "https://milchoh.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+description: milchoH's InfoSec and CyberSec blog. Tutorials, articles, writeups and more.
 github_username:  milchoH
 # Build settings
 plugins:
