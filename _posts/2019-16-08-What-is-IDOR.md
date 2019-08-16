@@ -3,7 +3,7 @@ layout: post
 title: "What is IDOR"
 author: milchoH
 date: 2019-08-16
-image: whatIsIDOR.jpg
+image: whatIsIDOR.png
 category: tutorials
 
 ---
