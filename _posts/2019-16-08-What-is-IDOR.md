@@ -10,9 +10,10 @@ category: tutorials
 
 # Quick word on authorization and authentication
 Authenticatin lets the application know who is using the app, while authorization means the level of features you have and the level of actions you can perform. [1]
-```
-IDOR occurs when an application refers to some other internal objects via different parameters in an insecure manner. - Abartan Dhakal
-```
+
+> IDOR occurs when an application refers to some other internal objects via different parameters in an insecure manner. 
+> - Abartan Dhakal
+
 
 # What is Insecure Direct Object Reference(IDOR)
 Insecure Direct Object References occur when an application provides direct access to objects based on user-supplied input. The result is the attacker can bypass authorization and access resources in the system directly by modifying the value of a parameter used to directly point to object.
