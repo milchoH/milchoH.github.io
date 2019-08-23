@@ -11,11 +11,13 @@ CyberSec/InfoSec enthusiast. Always learning how things work and how to break th
 * CEHv10 Cetified
 * OWASP member
 * BACEH (Bulgarian Association of Certified Ethical Hackers) member
-* CyberSec/InfoSec lecturer
 * Penetration tester
+* CyberSec/InfoSec lecturer
+* Conference speaker
 * CTF player mostly on Hacker101 (when able to find time)
+* Bug Bounty Hunter (again when able to find time)
 
-I am starting with Hack The Box challenges and CTFs in order to prepare for OSCP certification
+I am starting with Hack The Box challenges and CTFs in order to prepare for OSCP certification.
 
 Hack The Box profile: [milcho](https://www.hackthebox.eu/home/users/profile/78478)
 
